@@ -2,4 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* utilities */
+
+.container{
+    margin: 0px auto;
+    max-width: 1170px;
+}
+
+.jumbotron{
+    background-color: #FF6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.row{
+    width: 100%;
+}
+
+.col-100{
+    width: 100%;
+}
+/* end utilities */
+/* header */
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    margin: 20px 0px; 
+}
+
+.header-choice{
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.menu-right{
+    margin-left: 10px;
+}
+
+.menu-left{
+    margin-right: 10px;
+}
+/* end header */
