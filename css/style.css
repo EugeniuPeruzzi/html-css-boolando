@@ -21,13 +21,29 @@
     z-index: 100;
 }
 
-.row{
+.row-header{
     width: 100%;
 }
 
 .col-100{
-    width: 100%;
+    width: calc(100% - 20px);
+    margin: 0px 20px;
 }
+
+.row{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+    margin: 50px 10px;
+    position: relative;
+}
+
 /* end utilities */
 /* header */
 .content-header{
@@ -55,3 +71,82 @@
     margin-right: 10px;
 }
 /* end header */
+/* main */
+
+.image-1{
+    width: 100%;
+}
+
+.image-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+}
+
+.col-33:hover .image-2{
+    display: block;
+}
+
+.square-heart{
+    background-color: #fff;
+    width: 25px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.heart{
+    font-size: 30px;
+}
+
+.square{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 100px;
+    left: 0px;
+}
+
+.red-square{
+    padding: 0px 10px;
+    background-color: #FF0000;
+}
+
+.green-square{
+    padding: 0px 10px;
+    margin-left: 3px;
+    background-color: #008000;
+}
+
+
+.discount{
+    font-size: 0.7rem;
+    font-weight: 600;
+    display: inline-block;
+    color: #fff;
+}
+
+.producer-name{
+    color: #000;
+    font-size: 0.8rem;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+.price{
+    color: #FF0000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 8px;
+}
+ 
+del{
+    display: inline-block;
+    font-size: 0.9rem;
+}
+/* end main */
