@@ -10,7 +10,7 @@
 .container{
     margin: 0px auto;
     max-width: 1170px;
-}
+} 
 
 .jumbotron{
     background-color: #FF6900;
@@ -27,7 +27,7 @@
 
 .col-100{
     width: calc(100% - 20px);
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 .row{
@@ -42,6 +42,15 @@
     width: calc(100% / 3 - 20px);
     margin: 50px 10px;
     position: relative;
+}
+
+.jumbotron-footer{
+    width: 100%;
+    background-color: #1A1A1A;
+}
+
+.row-footer{
+    width: 100%;
 }
 
 /* end utilities */
@@ -150,3 +159,41 @@ del{
     font-size: 0.9rem;
 }
 /* end main */
+/* footer */
+
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+h3{
+    margin: 20px 0px 8px 0px;
+}
+
+.legal-info{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+h5{
+    margin: 0px 0px 10px 5px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.social-logo{
+    background-color: #fff;
+    width: 25px;
+    margin: 5px;
+    color: #000;
+    text-align: center;
+    padding: 2px;
+}
+/* end footer */
